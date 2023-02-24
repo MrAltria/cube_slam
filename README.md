@@ -23,7 +23,7 @@ This code contains several ros packages. We test it in **ROS indigo/kinetic, Ubu
 mkdir -p ~/cubeslam_ws/src
 cd ~/cubeslam_ws/src
 catkin_init_workspace
-git clone git@github.com:shichaoy/cube_slam.git
+git clone https://github.com/MrAltria/cube_slam.git
 cd cube_slam
 ```
 
