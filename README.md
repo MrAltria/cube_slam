@@ -21,7 +21,7 @@ If you use the code in your research work, please cite the above paper. Feel fre
 This code contains several ros packages. We test it in **ROS indigo/kinetic, Ubuntu 14.04/16.04, Opencv 2/3**. Create or use existing a ros workspace.
 ```bash
 mkdir -p cubeslam_ws/src
-cd /cubeslam_ws/src
+cd cubeslam_ws/src
 catkin_init_workspace
 git clone https://github.com/MrAltria/cube_slam.git
 cd cube_slam
