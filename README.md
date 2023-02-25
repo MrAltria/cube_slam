@@ -35,7 +35,7 @@ sh install_dependenices.sh
 
 ### Compile
 ```bash
-cd ..
+cd ../..
 catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 
