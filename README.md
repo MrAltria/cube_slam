@@ -20,7 +20,7 @@ If you use the code in your research work, please cite the above paper. Feel fre
 ### Prerequisites
 This code contains several ros packages. We test it in **ROS indigo/kinetic, Ubuntu 14.04/16.04, Opencv 2/3**. Create or use existing a ros workspace.
 ```bash
-mkdir -p /cubeslam_ws/src
+mkdir -p cubeslam_ws/src
 cd /cubeslam_ws/src
 catkin_init_workspace
 git clone https://github.com/MrAltria/cube_slam.git
@@ -35,7 +35,7 @@ sh install_dependenices.sh
 
 ### Compile
 ```bash
-cd /cubeslam_ws
+cd ..
 catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 
